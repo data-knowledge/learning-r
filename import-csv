@@ -1,0 +1,2 @@
+# Code to import a csv file. Seperator is csv and we have headers in the first row 
+MKForecats <- read.table("MKForecasts.csv", sep="," header = TRUE)
